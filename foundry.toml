@@ -3,10 +3,12 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
-# foundry.toml
  
 solc_version = '0.8.26'
 evm_version = "cancun"
 optimizer_runs = 800
 via_ir = false
 ffi = true
+
+# report gas for the test contracts named here (optional). If omitted, forge test --gas-report will list results anyway.
+gas_reports = ["PointsHook"]
