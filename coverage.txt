@@ -1,0 +1,323 @@
+Compiling 90 files with Solc 0.8.26
+Solc 0.8.26 finished in 3.05s
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.26;"
+--> script/DeployHook.s.sol
+
+Warning (2072): Unused local variable.
+  --> test/PointsHook.t.sol:85:9:
+   |
+85 |         uint256 tokenToAdd = LiquidityAmounts.getAmount1ForLiquidity(
+   |         ^^^^^^^^^^^^^^^^^^
+
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/PointsHook.t.sol:PointsHookTest
+[PASS] test_swap() (gas: 192699)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 17.73ms (4.60ms CPU time)
+
+Ran 1 test suite in 165.83ms (17.73ms CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+Uncovered for src/PointsHook.sol:
+- Function "uri" (location: source ID 88, line 49, chars 1646-1781, hits: 0)
+- Line (location: source ID 88, line 51, chars 1731-1774, hits: 0)
+- Statement (location: source ID 88, line 51, chars 1731-1774, hits: 0)
+- Branch (branch: 0, path: 0) (location: source ID 88, line 63, chars 2132-2203, hits: 0)
+- Statement (location: source ID 88, line 63, chars 2168-2203, hits: 0)
+- Branch (branch: 1, path: 0) (location: source ID 88, line 66, chars 2278-2341, hits: 0)
+- Statement (location: source ID 88, line 66, chars 2306-2341, hits: 0)
+- Branch (branch: 3, path: 0) (location: source ID 88, line 98, chars 3602-3633, hits: 0)
+- Statement (location: source ID 88, line 98, chars 3626-3633, hits: 0)
+
+Anchors for Contract "StateLibrary" (solc 0.8.26, source ID 56):
+
+Anchors for Contract "ParseBytes" (solc 0.8.26, source ID 50):
+
+Anchors for Contract "stdToml" (solc 0.8.26, source ID 11):
+
+Anchors for Contract "SafeCast" (solc 0.8.26, source ID 54):
+
+Anchors for Contract "console" (solc 0.8.26, source ID 15):
+
+Anchors for Contract "stdMath" (solc 0.8.26, source ID 8):
+
+Anchors for Contract "stdJson" (solc 0.8.26, source ID 7):
+
+Anchors for Contract "TransientStateLibrary" (solc 0.8.26, source ID 60):
+
+Anchors for Contract "ProtocolFeeLibrary" (solc 0.8.26, source ID 53):
+
+Anchors for Contract "NonzeroDeltaCount" (solc 0.8.26, source ID 49):
+
+Anchors for Contract "stdError" (solc 0.8.26, source ID 5):
+
+Anchors for Contract "StdStyle" (solc 0.8.26, source ID 10):
+
+Anchors for Contract "TickMath" (solc 0.8.26, source ID 59):
+
+Anchors for Contract "LPFeeLibrary" (solc 0.8.26, source ID 46):
+
+Anchors for Contract "SqrtPriceMath" (solc 0.8.26, source ID 55):
+
+Anchors for Contract "PointsHook" (solc 0.8.26, source ID 88):
+- IC 5 -> Item 0
+- Runtime code
+  - Refers to item: Function "" (location: source ID 88, line 20, chars 650-706, hits: 1)
+- IC 158 -> Item 1
+- Runtime code
+  - Refers to item: Function "getHookPermissions" (location: source ID 88, line 24, chars 807-1596, hits: 1)
+- IC 167 -> Item 2
+- Runtime code
+  - Refers to item: Line (location: source ID 88, line 29, chars 939-1589, hits: 1)
+- IC 167 -> Item 3
+- Runtime code
+  - Refers to item: Statement (location: source ID 88, line 29, chars 939-1589, hits: 1)
+- IC 167 -> Item 4
+- Runtime code
+  - Refers to item: Line (location: source ID 88, line 30, chars 958-1589, hits: 1)
+- IC 167 -> Item 5
+- Runtime code
+  - Refers to item: Statement (location: source ID 88, line 30, chars 958-1589, hits: 1)
+- IC 938 -> Item 1
+- Creation code
+  - Refers to item: Function "getHookPermissions" (location: source ID 88, line 24, chars 807-1596, hits: 1)
+- IC 4381 -> Item 2
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 29, chars 939-1589, hits: 1)
+- IC 4381 -> Item 3
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 29, chars 939-1589, hits: 1)
+- IC 4381 -> Item 4
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 30, chars 958-1589, hits: 1)
+- IC 4381 -> Item 5
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 30, chars 958-1589, hits: 1)
+- IC 397 -> Item 6
+- Creation code
+  - Refers to item: Function "uri" (location: source ID 88, line 49, chars 1646-1781, hits: 0)
+- IC 1349 -> Item 7
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 51, chars 1731-1774, hits: 0)
+- IC 1349 -> Item 8
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 51, chars 1731-1774, hits: 0)
+- IC 6137 -> Item 9
+- Creation code
+  - Refers to item: Function "_afterSwap" (location: source ID 88, line 53, chars 1829-3116, hits: 1)
+- IC 6140 -> Item 10
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 63, chars 2136-2166, hits: 1)
+- IC 6140 -> Item 11
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 63, chars 2136-2166, hits: 1)
+- IC 6192 -> Item 12
+- Creation code
+  - Refers to item: Branch (branch: 0, path: 0) (location: source ID 88, line 63, chars 2132-2203, hits: 0)
+- IC 6209 -> Item 13
+- Creation code
+  - Refers to item: Branch (branch: 0, path: 1) (location: source ID 88, line 63, chars 2132-2203, hits: 1)
+- IC 6192 -> Item 14
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 63, chars 2168-2203, hits: 0)
+- IC 6210 -> Item 15
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 66, chars 2282-2304, hits: 1)
+- IC 6210 -> Item 16
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 66, chars 2282-2304, hits: 1)
+- IC 6232 -> Item 17
+- Creation code
+  - Refers to item: Branch (branch: 1, path: 0) (location: source ID 88, line 66, chars 2278-2341, hits: 0)
+- IC 6249 -> Item 18
+- Creation code
+  - Refers to item: Branch (branch: 1, path: 1) (location: source ID 88, line 66, chars 2278-2341, hits: 1)
+- IC 6232 -> Item 19
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 66, chars 2306-2341, hits: 0)
+- IC 6250 -> Item 20
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 76, chars 2793-2851, hits: 1)
+- IC 6250 -> Item 21
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 76, chars 2793-2851, hits: 1)
+- IC 6251 -> Item 22
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 76, chars 2818-2851, hits: 1)
+- IC 6274 -> Item 23
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 77, chars 2861-2903, hits: 1)
+- IC 6274 -> Item 24
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 77, chars 2861-2903, hits: 1)
+- IC 6275 -> Item 25
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 78, chars 2885-2903, hits: 1)
+- IC 6275 -> Item 26
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 78, chars 2885-2903, hits: 1)
+- IC 6290 -> Item 27
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 79, chars 2941-2991, hits: 1)
+- IC 6290 -> Item 28
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 79, chars 2941-2991, hits: 1)
+- IC 6326 -> Item 29
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 81, chars 3002-3037, hits: 1)
+- IC 6326 -> Item 30
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 81, chars 3002-3037, hits: 1)
+- IC 6584 -> Item 31
+- Creation code
+  - Refers to item: Function "_assignPoints" (location: source ID 88, line 84, chars 3122-3781, hits: 1)
+- IC 6585 -> Item 32
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 91, chars 3331-3351, hits: 1)
+- IC 6585 -> Item 33
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 91, chars 3331-3351, hits: 1)
+- IC 6596 -> Item 34
+- Creation code
+  - Refers to item: Branch (branch: 2, path: 0) (location: source ID 88, line 91, chars 3327-3360, hits: 1)
+- IC 6705 -> Item 35
+- Creation code
+  - Refers to item: Branch (branch: 2, path: 1) (location: source ID 88, line 91, chars 3327-3360, hits: 1)
+- IC 6592 -> Item 36
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 92, chars 3353-3360, hits: 1)
+- IC 6592 -> Item 37
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 92, chars 3353-3360, hits: 1)
+- IC 6596 -> Item 38
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 93, chars 3416-3462, hits: 1)
+- IC 6596 -> Item 39
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 93, chars 3416-3462, hits: 1)
+- IC 6597 -> Item 40
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 93, chars 3431-3462, hits: 1)
+- IC 6614 -> Item 41
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 98, chars 3606-3624, hits: 1)
+- IC 6614 -> Item 42
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 98, chars 3606-3624, hits: 1)
+- IC 6614 -> Item 43
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 98, chars 3614-3624, hits: 1)
+- IC 6665 -> Item 44
+- Creation code
+  - Refers to item: Branch (branch: 3, path: 0) (location: source ID 88, line 98, chars 3602-3633, hits: 0)
+- IC 6670 -> Item 45
+- Creation code
+  - Refers to item: Branch (branch: 3, path: 1) (location: source ID 88, line 98, chars 3602-3633, hits: 1)
+- IC 6665 -> Item 46
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 98, chars 3626-3633, hits: 0)
+- IC 6671 -> Item 47
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 99, chars 3678-3729, hits: 1)
+- IC 6671 -> Item 48
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 99, chars 3678-3729, hits: 1)
+- IC 6672 -> Item 49
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 100, chars 3699-3729, hits: 1)
+- IC 6672 -> Item 50
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 100, chars 3699-3729, hits: 1)
+- IC 6677 -> Item 51
+- Creation code
+  - Refers to item: Line (location: source ID 88, line 102, chars 3739-3774, hits: 1)
+- IC 6677 -> Item 52
+- Creation code
+  - Refers to item: Statement (location: source ID 88, line 102, chars 3739-3774, hits: 1)
+
+Anchors for Contract "TickBitmap" (solc 0.8.26, source ID 58):
+
+Anchors for Contract "LiquidityAmounts" (solc 0.8.26, source ID 82):
+
+Anchors for Contract "BitMath" (solc 0.8.26, source ID 38):
+
+Anchors for Contract "PoolSwapTest" (solc 0.8.26, source ID 68):
+
+Anchors for Contract "CurrencyReserves" (solc 0.8.26, source ID 40):
+
+Anchors for Contract "PoolTakeTest" (solc 0.8.26, source ID 69):
+
+Anchors for Contract "PoolNestedActionsTest" (solc 0.8.26, source ID 67):
+
+Anchors for Contract "FixedPoint96" (solc 0.8.26, source ID 43):
+
+Anchors for Contract "SwapMath" (solc 0.8.26, source ID 57):
+
+Anchors for Contract "Position" (solc 0.8.26, source ID 52):
+
+Anchors for Contract "safeconsole" (solc 0.8.26, source ID 18):
+
+Anchors for Contract "PoolDonateTest" (solc 0.8.26, source ID 64):
+
+Anchors for Contract "FullMath" (solc 0.8.26, source ID 44):
+
+Anchors for Contract "FixedPoint128" (solc 0.8.26, source ID 42):
+
+Anchors for Contract "Lock" (solc 0.8.26, source ID 48):
+
+Anchors for Contract "Slot0Library" (solc 0.8.26, source ID 78):
+
+Anchors for Contract "stdStorageSafe" (solc 0.8.26, source ID 9):
+
+Anchors for Contract "Deployers" (solc 0.8.26, source ID 81):
+
+Anchors for Contract "MockERC20" (solc 0.8.26, source ID 20):
+
+Anchors for Contract "CurrencyLibrary" (solc 0.8.26, source ID 74):
+
+Anchors for Contract "UnsafeMath" (solc 0.8.26, source ID 61):
+
+Anchors for Contract "CurrencySettler" (solc 0.8.26, source ID 80):
+
+Anchors for Contract "PoolModifyLiquidityTest" (solc 0.8.26, source ID 65):
+
+Anchors for Contract "LiquidityMath" (solc 0.8.26, source ID 47):
+
+Anchors for Contract "PointsHookTest" (solc 0.8.26, source ID 89):
+
+Anchors for Contract "ImmutableState" (solc 0.8.26, source ID 84):
+
+Anchors for Contract "PoolModifyLiquidityTestNoChecks" (solc 0.8.26, source ID 66):
+
+Anchors for Contract "PoolManager" (solc 0.8.26, source ID 28):
+
+Anchors for Contract "BeforeSwapDeltaLibrary" (solc 0.8.26, source ID 73):
+
+Anchors for Contract "CustomRevert" (solc 0.8.26, source ID 41):
+
+Anchors for Contract "SortTokens" (solc 0.8.26, source ID 83):
+
+Anchors for Contract "Hooks" (solc 0.8.26, source ID 45):
+
+Anchors for Contract "StdConstants" (solc 0.8.26, source ID 4):
+
+Anchors for Contract "Constants" (solc 0.8.26, source ID 79):
+
+Anchors for Contract "CurrencyDelta" (solc 0.8.26, source ID 39):
+
+Anchors for Contract "stdStorage" (solc 0.8.26, source ID 9):
+
+Anchors for Contract "Pool" (solc 0.8.26, source ID 51):
+
+Anchors for Contract "SwapRouterNoChecks" (solc 0.8.26, source ID 71):
+
+Anchors for Contract "NestedActionExecutor" (solc 0.8.26, source ID 67):
+
+Anchors for Contract "PoolClaimsTest" (solc 0.8.26, source ID 63):
+
+Anchors for Contract "ActionsRouter" (solc 0.8.26, source ID 62):
+
+Anchors for Contract "BalanceDeltaLibrary" (solc 0.8.26, source ID 72):
+
+Anchors for Contract "PoolIdLibrary" (solc 0.8.26, source ID 75):
+
